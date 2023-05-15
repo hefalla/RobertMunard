@@ -23,10 +23,17 @@ header{
     padding: 20px 0;
 }
 
+header img{
+    float: left;
+    margin-left: 20px;
+}
+
 h1{
     font-size: 50px;
     color: #71071E;
     text-align: center;
+    float: right;
+    margin: 45px 130px 0 0;
 }
 
 nav{
@@ -80,7 +87,12 @@ footer{
 
 /* CLASES */
 .centrar{
+    margin-top: 30px;
     text-align: center;
+}
+
+.imgFloat{
+    float: left;
 }
 
 .caja{
@@ -89,4 +101,10 @@ footer{
     border-radius: 15px;
     padding: 20px;
     margin: 20px 50px;
+    float: right;
+    width: 60%;
+}
+
+.clear{
+    clear: both;
 }
