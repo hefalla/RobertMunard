@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=PT+Sans:wght@400;700&family=Russo+One&display=swap');
+
 *{
   margin: 0; 
   padding: 0;
@@ -6,7 +8,7 @@
 
 body{
     background:url("../images/fondo.jpg");
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'PT Sans', sans-serif;
 }
 
 main{
@@ -34,6 +36,7 @@ h1{
     text-align: center;
     float: right;
     margin: 45px 130px 0 0;
+    font-family: 'Russo One', sans-serif;
 }
 
 nav{
@@ -69,6 +72,7 @@ section h2{
     font-size: 30px;
     padding: 10px 0;
     color: #71071E;
+    font-family: 'Oswald', sans-serif;
 }
 
 section p{
